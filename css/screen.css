@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8em;
 }
 
+footer {
+  margin-top: 2em;
+}
+
 footer p {
   font-size: 0.8em;
   font-style: italic;
