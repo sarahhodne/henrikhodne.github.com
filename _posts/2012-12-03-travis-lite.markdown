@@ -21,8 +21,6 @@ for a repository. The goal is for all of the Travis URL endpoints to be implemen
 
 The app is [open source][travis-lite-github], and contributions are greatly welcomed.
 
-If you have any questions, feel free to ping me on Twitter. I'm @[henrikhodne][] there.
-
 [travis-ci]: http://travis-ci.org/
 [travis-lite]: http://travis-lite.herokuapp.com/
 [travis-api]: https://api.travis-ci.org/
