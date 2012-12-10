@@ -17,12 +17,12 @@ awesome enough to provide.
 
 Travis Lite is still a work in progress, but you can see the list of the latest builds, as well as the latest builds
 for a repository. The goal is for all of the Travis URL endpoints to be implemented, so you can just replace the
-"travis-ci.org" part of the URL with "travis-lite.herokuapp.com".
+"travis-ci.org" part of the URL with "travis-lite.com".
 
 The app is [open source][travis-lite-github], and contributions are greatly welcomed.
 
 [travis-ci]: http://travis-ci.org/
-[travis-lite]: http://travis-lite.herokuapp.com/
+[travis-lite]: http://travis-lite.com/
 [travis-api]: https://api.travis-ci.org/
 [travis-lite-github]: https://github.com/henrikhodne/travis-lite
 [henrikhodne]: http://twitter.com/henrikhodne
