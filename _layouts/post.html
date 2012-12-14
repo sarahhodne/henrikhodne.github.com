@@ -1,14 +1,28 @@
 ---
-layout: default
+layout: layout
 ---
 
-<article class="post">
-  <header>
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date: "%d %b, %Y" }}</time>
-  </header>
+<section class="content container">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+  
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
 
   {{ content }}
 
-  <p class="feedback">Have feedback? Tweet me at <a href="http://twitter.com/henrikhodne">@henrikhodne</a>, or email me at <a href="mailto:me@henrikhodne.com">me@henrikhodne.com</a>.</p>
-</article>
+  <section class="meta">
+    <h3>Discussion, links and tweets</h3>
+    <section class="copy">
+      <a href="https://twitter.com/henrikhodne">
+	<img src="http://s.gravatar.com/avatar/0fd80494679214743a967d583420a731?s=142" height="50" width="50">
+      </a>
+
+      <p>
+	Have feedback? Tweet me at <a href="https://twitter.com/henrikhodne">@henrikhodne</a> (or App.net <a href="https://alpha.app.net/henrikhodne">under the same name</a>), or email me at <a href="mailto:me@henrikhodne.com">me@henrikhodne.com</a>.
+      </p>
+    </section>
+  </section>
+</section>
